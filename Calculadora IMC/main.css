@@ -1,0 +1,45 @@
+body { 
+    font-size: 20px;
+}
+#main {
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    background-color: rgba(236, 195, 9, 0.753);
+    width: 350px;
+    height: 450px;
+    border-radius: 2%;
+}
+
+button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: rgba(255, 166, 0, 0.795);
+}
+
+#sec {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 5%;
+}
+
+input {
+    border-radius: 10px;
+    height: 23px;
+}
